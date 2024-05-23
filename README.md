@@ -25,12 +25,14 @@ and then to the 3rd floor.
 - `ArrayList<Triplet<Integer, Integer, Integer>> status()` - returns status of each `Elevator` in the system. status is 
   (elevator ID, current floor, next destination floor (first floor from the queue in direction its moving))
   
-#Run
+# Run
+
 To run program execute
 
 `mvn compile exec:java -Dexec.mainClass="Main" -Dexec.args="$NUMBER"` where NUMBER is number of `Elevator`s in the system.
 
-#Test
+# Test
+
 To run all tests execute
 
 `mvn clean test`
